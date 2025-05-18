@@ -14,7 +14,7 @@ export default function TabsLayout() {
       }
 
     return (
-        <Tabs screenOptions={{ headerShown: false, tabBarStyle: { backgroundColor: "#020817" } }}>
+        <Tabs screenOptions={{ headerShown: false }}>
             <Tabs.Screen
             name="dashboard"
             options={{
@@ -26,10 +26,10 @@ export default function TabsLayout() {
                       style={{
                         width: 24,
                         height: 24,
-                        tintColor: focused ? '#00CCCF' : '#94A3B8',}}
+                        tintColor: focused ? 'black' : '#838383',}}
                     />
                 ),
-                tabBarLabelStyle: { color: "#94A3B8", fontSize: 9, fontFamily: "K2D_700Bold" }
+                tabBarLabelStyle: { color: "#838383", fontSize: 9, fontFamily: "K2D_700Bold" }
             }}
             />
             <Tabs.Screen
@@ -43,10 +43,10 @@ export default function TabsLayout() {
                       style={{
                         width: 22,
                         height: 22,
-                        tintColor: focused ? '#00CCCF' : '#94A3B8',}}
+                        tintColor: focused ? 'black' : '#838383',}}
                     />
                 ),
-                tabBarLabelStyle: { color: "#94A3B8", fontSize: 9, fontFamily: "K2D_700Bold" }
+                tabBarLabelStyle: { color: "#838383", fontSize: 9, fontFamily: "K2D_700Bold" }
             }}
             />
             <Tabs.Screen
@@ -60,10 +60,10 @@ export default function TabsLayout() {
                       style={{
                         width: 24,
                         height: 14,
-                        tintColor: focused ? '#00CCCF' : '#94A3B8',}}
+                        tintColor: focused ? 'black' : '#838383',}}
                     />
                 ),
-                tabBarLabelStyle: { color: "#94A3B8", fontSize: 9, fontFamily: "K2D_700Bold" }
+                tabBarLabelStyle: { color: "#838383", fontSize: 9, fontFamily: "K2D_700Bold" }
             }}
             />
             <Tabs.Screen
@@ -77,10 +77,10 @@ export default function TabsLayout() {
                       style={{
                         width: 18,
                         height: 24,
-                        tintColor: focused ? '#00CCCF' : '#94A3B8',}}
+                        tintColor: focused ? 'black' : '#838383',}}
                     />
                 ),
-                tabBarLabelStyle: { color: "#94A3B8", fontSize: 9, fontFamily: "K2D_700Bold" }
+                tabBarLabelStyle: { color: "#838383", fontSize: 9, fontFamily: "K2D_700Bold" }
             }}
             />
             
