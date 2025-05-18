@@ -1,7 +1,7 @@
-import React from 'react'
+import { Text, View } from 'react-native'
 
 export default function Listar() {
   return (
-    <div>listar</div>
+    <View><Text>dsfgdfg</Text></View>
   )
 }

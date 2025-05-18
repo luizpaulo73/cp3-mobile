@@ -1,3 +1,4 @@
+import { Link } from 'expo-router'
 import { View, Text, StyleSheet } from 'react-native'
 
 export default function TelaInicial() {
@@ -6,6 +7,7 @@ export default function TelaInicial() {
             <Text>
                 Bem-vindo ao aplicativo de gerenciamento de estoque!
             </Text>
+            <Link href={"/dashboard"}>Entrar</Link>
         </View>
     )
 }
